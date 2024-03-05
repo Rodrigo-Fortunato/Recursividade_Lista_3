@@ -7,14 +7,14 @@ public class Ex06_Controller {
     }
 
 
-    public int somaFatorial(int num){
+    public double somaFatorial(int num){
         if (num ==1){
             return 1;
         }else{
             return (1/fatorial(num)) + somaFatorial(num-1);
         }
     }
-    public int fatorial(int numFat){
+    public double fatorial(int numFat){
         if (numFat ==1){
             return 1;
         }else {
